@@ -5,7 +5,7 @@
 }
 
 * {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
   background-color: var(--light);
   color: var(--dark);
   padding: 0;
@@ -251,12 +251,12 @@ height: 150px;
   }
 }
  
-@media only screen and (min-width: 960px) {
+@media only screen and (max-width: 760px) {
   .combine {
       flex-basis: 50%;
   }
 }
-@media only screen and (min-width: 1280px) {
+@media only screen and (max-width: 992px) {
   .combine {
       flex-basis: 50%;
   }
